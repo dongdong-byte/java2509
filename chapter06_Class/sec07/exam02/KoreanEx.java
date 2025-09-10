@@ -1,0 +1,23 @@
+package ch06.sec07.exam02;
+
+public class KoreanEx {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+//korean 객체 생성
+Korean k1 = new Korean ("박자바","011225-1234567");
+System.out.println("k1.nation: " + k1.nation);
+System.out.println("k1.name: " + k1.name);
+System.out.println("k1.ssn: " + k1.ssn);
+System.out.println();
+
+//또다른 korean 객체 생성
+Korean k2 = new Korean("김자바","930525-064321");
+//또 다른 korean 객체 데이터 열기
+System.out.println("k2.nation: " + k2.nation);	
+System.out.println("k2.name: " + k2.name);	
+System.out.println("k2.ssn : " + k2.ssn);
+System.out.println(" 위 예제의 korean생성자로 n,s를 사용했다. 매개변수의 이름이 너무 짧으면 가독성이 좋지 않으니까 가능하면 초기화시킬 필드명과 동일한 이름을 사용하는게 좋다.");
+	}
+
+}
